@@ -1,0 +1,353 @@
+:root{
+    --main-col:#e65f78;
+    --main-bg:#f1f1f1;
+}
+.main-col{
+    color: var(--main-col);
+}
+.w-40{
+    width: 45%;
+}
+.sec-bg{
+    background-color: var(--main-bg);
+}
+
+.myp{
+    max-width: 500px;
+}
+.myp2{
+  max-width: 450px;
+  color:rgb(108, 117, 125);
+}
+.fs-70{
+    font-size: 4.5rem;
+}
+
+#Home {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/header-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1{
+    font-size: 4.5rem;   
+}
+
+#Home h1::after {
+    content: '';
+    animation: typing 3s infinite alternate;
+}
+
+@keyframes typing {
+    0% {
+        content: "|";
+    }
+    3% {
+        content: "D|";
+    }
+    5% {
+        content: "De|";
+    }
+    7% {
+        content: "Dev|";
+    }
+    10% {
+        content: "Deve|";
+    }
+    13% {
+        content: "Devel|";
+    }
+    15% {
+        content: "Develo|";
+    }
+    17% {
+        content: "Develop|";
+    }
+    20% {
+        content: "Developm|";
+    }
+    24% {
+        content: "Developme|";
+    }
+    25% {
+        content: "Developmen|";
+    }
+    27% {
+        content: "Development|";
+    }
+    30% {
+        content: "Development|";
+    }
+    32% {
+        content: "Developmen|";
+    }
+    35% {
+        content: "Developme|";
+    }
+    37% {
+        content: "Develop|";
+    }
+    40% {
+        content: "Develo|";
+    }
+    42% {
+        content: "Devel|";
+    }
+    45% {
+        content: "Deve|";
+    }
+    47% {
+        content: "Dev|";
+    }
+    50% {
+        content: "De|";
+    }
+    52% {
+        content: "Des|";
+    }
+    55% {
+        content: "Desi|";
+    }
+    57% {
+        content: "Desig|";
+    }
+    60% {
+        content: "Design|";
+    }
+    62% {
+        content: "Designe|";
+    }
+    65% {
+        content: "Designer|";
+    }
+    67% {
+        content: "Designer|";
+    }
+    70% {
+        content: "Designe|";
+    }
+    72% {
+        content: "Design|";
+    }
+    75% {
+        content: "Desig|";
+    }
+    77% {
+        content: "Desi|";
+    }
+    80% {
+        content: "Des|";
+    }
+    82% {
+        content: "De|";
+    }
+    85% {
+        content: "Dev|";
+    }
+    87% {
+        content: "Deve|";
+    }
+    90% {
+        content: "Devel|";
+    }
+    92% {
+        content: "Develo|";
+    }
+    95% {
+        content: "Develop|";
+    }
+    97% {
+        content: "Develope|";
+    }
+    100% {
+        content: "Developer|";
+    }
+}
+.shape{
+    width: 40px;
+    height: 80px;
+    border: 1px solid white;
+    position: absolute;
+    left: 50%;
+    bottom: 50px;
+    transform: translate(-50%,-50%);
+animation: move 1s infinite alternate;
+}
+@keyframes move {
+    0% {
+        bottom: 100px;
+    }
+    25% {
+        bottom: 50px;
+    }
+    50% {
+        bottom: 80px;
+    }
+    75% {
+        bottom: 50px;
+    }
+    100% {
+        bottom: 60px;
+    }
+}
+.dot{
+    width: 5px;
+    height: 12px;
+    background-color: white;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.gears{
+    background-color: #333;
+    width: 40px;
+    font-size: 27px;
+  margin-top: -520px;
+}
+.navbar-nav .nav-link.active{
+        color: #e65f78 !important;
+    font-weight: bold;
+
+
+}
+.nav-link:focus , .nav-link:hover{
+       color: #e65f78 !important;
+}
+#about li {
+    transition: 0.5s;
+    width: 30px;
+    height: 30px;
+    box-sizing: content-box;
+    padding: 3px;
+    border: 2px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+#about li i {
+    transition: 0.5s;
+}
+
+#about li:hover {
+    border: 2px solid var(--main-col);
+}
+
+#about li:hover i {
+    color: var(--main-col);
+}
+.w-10{
+    width: 90px;
+}
+
+
+.carousel-indicators [data-bs-target] {
+    background-color:#e65f78!important;
+}
+
+.carousel-indicators .active {
+    background-color:#e65f78cd; 
+}
+.carousel-indicators [data-bs-target] {
+    width: 25px!important;
+    height: 5px !important; 
+
+}
+
+.carousel-indicators{
+    bottom: -40px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+.inner-work {
+    position: relative;
+    overflow: hidden;
+}
+
+
+.layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+
+.ketaba {
+    position: absolute;
+    bottom: -100%; 
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+
+
+.inner-work img {
+    transition: transform 0.3s ease;
+}
+
+.inner-work:hover img {
+    transform: scale(1.5);
+}
+
+
+.inner-work:hover .layer {
+    opacity: 1;
+}
+
+.inner-work:hover .ketaba {
+    bottom: 10%;
+    opacity: 1;
+}
+
+
+
+
+  .nav-pills {
+    justify-content: center; 
+  }
+  .tabs-container {
+    margin-top: 40px; 
+  }
+
+
+
+
+#works .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color:#e65f78;
+    color: white;
+     border-radius: 50px;
+}
+
+.nav-link:focus-visible{
+    box-shadow: 0;
+}
+
+#works .nav-link{
+    color: #333;
+}
+
+form button{
+    background-color: var(--main-col);
+}
